@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://mounting-eds-deborah-portion.trycloudflare.com";
+window.__SY_ADDR__="https://standing-beautiful-continuity-optimal.trycloudflare.com";
