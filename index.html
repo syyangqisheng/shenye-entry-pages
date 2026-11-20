@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>神野大胜 · 正在进入</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(160deg,#0b2545,#13315c 55%,#1b3a6b);color:#eaf1fb;
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+  .box{text-align:center;padding:36px 28px}
+  .logo{width:84px;height:84px;margin:0 auto 20px;border-radius:22px;
+    background:linear-gradient(145deg,#f5c451,#e0a323);color:#0b2545;
+    display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:800;
+    box-shadow:0 12px 32px rgba(0,0,0,.3)}
+  h1{font-size:22px;letter-spacing:2px;margin-bottom:8px}
+  .slogan{font-size:12px;color:#9fb6d4;margin-bottom:28px}
+  .spin{width:34px;height:34px;margin:0 auto 16px;border:3px solid rgba(255,255,255,.18);
+    border-top-color:#f5c451;border-radius:50%;animation:rot .9s linear infinite}
+  @keyframes rot{to{transform:rotate(360deg)}}
+  .msg{font-size:13px;color:#c8d7ec;line-height:1.7}
+  .err{display:none;color:#ffb4b4;font-size:12px;margin-top:14px;line-height:1.6}
+  .btn{display:none;margin-top:18px;padding:11px 24px;border:none;border-radius:10px;
+    background:#f5c451;color:#0b2545;font-size:14px;font-weight:700;cursor:pointer}
+  .foot{position:fixed;bottom:18px;left:0;right:0;text-align:center;font-size:10px;color:#6c86a8}
+</style>
+</head>
+<body>
+  <div class="box">
+    <div class="logo">神</div>
+    <h1>神野大胜</h1>
+    <div class="slogan">每一笔成本皆是底气，每一次报价皆是归途</div>
+    <div class="spin" id="spin"></div>
+    <div class="msg" id="msg">正在连接服务器，请稍候…</div>
+    <div class="err" id="err"></div>
+    <button class="btn" id="btn" onclick="location.reload()">重新连接</button>
+  </div>
+  <div class="foot">固定入口 · 自动跟随服务器地址</div>
+
+<script>
+(function(){
+  var msg=document.getElementById('msg'), spin=document.getElementById('spin'),
+      err=document.getElementById('err'), btn=document.getElementById('btn');
+  function fail(){
+    spin.style.display='none';
+    msg.textContent='暂时无法获取服务器地址';
+    err.style.display='block';
+    err.textContent='服务器可能正在重启。请稍等几秒后重试。';
+    btn.style.display='inline-block';
+  }
+  // 带时间戳加载 addr.js，绕过 CDN 缓存
+  var s=document.createElement('script');
+  s.src='addr.js?t='+Date.now();
+  s.onload=function(){
+    var u=(typeof window.__SY_ADDR__!=='undefined')?window.__SY_ADDR__:'';
+    if(u && /^https?:\/\//.test(u)){
+      msg.textContent='连接成功，正在进入…';
+      location.replace(u);
+    }else{ fail(); }
+  };
+  s.onerror=fail;
+  document.head.appendChild(s);
+})();
+</script>
+</body>
+</html>
