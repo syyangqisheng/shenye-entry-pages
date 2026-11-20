@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://seeker-generous-leave-cycling.trycloudflare.com";
+window.__SY_ADDR__="https://mounting-eds-deborah-portion.trycloudflare.com";
