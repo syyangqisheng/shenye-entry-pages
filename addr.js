@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://bare-rotation-carlo-advocacy.trycloudflare.com";
+window.__SY_ADDR__="https://politics-transformation-fence-cal.trycloudflare.com";
