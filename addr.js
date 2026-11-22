@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://ben-including-yea-creating.trycloudflare.com";
+window.__SY_ADDR__="https://fails-licensed-representation-pic.trycloudflare.com";
