@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://grown-listed-jimmy-prospects.trycloudflare.com";
+window.__SY_ADDR__="https://ben-including-yea-creating.trycloudflare.com";
