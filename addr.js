@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://shake-advert-progress-rescue.trycloudflare.com";
+window.__SY_ADDR__="https://robots-hypothetical-effort-shipment.trycloudflare.com";
