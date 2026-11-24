@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://broader-jefferson-allocated-twins.trycloudflare.com";
+window.__SY_ADDR__="https://passive-resistance-illustration-applicants.trycloudflare.com";
