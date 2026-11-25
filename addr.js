@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://passive-resistance-illustration-applicants.trycloudflare.com";
+window.__SY_ADDR__="https://existed-canberra-thing-lodge.trycloudflare.com";
