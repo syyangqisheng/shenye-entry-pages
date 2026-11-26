@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://booking-expert-verbal-stay.trycloudflare.com";
+window.__SY_ADDR__="https://raw-capability-eat-during.trycloudflare.com";
