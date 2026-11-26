@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://raw-capability-eat-during.trycloudflare.com";
+window.__SY_ADDR__="https://commercial-booking-accounts-correct.trycloudflare.com";
