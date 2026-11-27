@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://named-temporarily-smell-marble.trycloudflare.com";
+window.__SY_ADDR__="https://checklist-format-visits-weighted.trycloudflare.com";
