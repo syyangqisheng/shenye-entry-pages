@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://informed-cowboy-hash-princess.trycloudflare.com";
+window.__SY_ADDR__="https://prepared-christina-bathroom-tier.trycloudflare.com";
