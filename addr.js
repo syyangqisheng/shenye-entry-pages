@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://last-save-arthritis-deposits.trycloudflare.com";
+window.__SY_ADDR__="https://shenye.shenye-dasheng.cn";
