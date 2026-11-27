@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://mason-specialty-liked-encouraging.trycloudflare.com";
+window.__SY_ADDR__="https://last-save-arthritis-deposits.trycloudflare.com";
