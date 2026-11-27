@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://observer-relations-ranges-consequences.trycloudflare.com";
+window.__SY_ADDR__="https://vic-institutional-precision-theme.trycloudflare.com";
