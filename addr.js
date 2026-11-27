@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://vic-institutional-precision-theme.trycloudflare.com";
+window.__SY_ADDR__="https://informed-cowboy-hash-princess.trycloudflare.com";
