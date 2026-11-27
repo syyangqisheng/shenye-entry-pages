@@ -1,1 +1,1 @@
-window.__SY_ADDR__="https://checklist-format-visits-weighted.trycloudflare.com";
+window.__SY_ADDR__="https://observer-relations-ranges-consequences.trycloudflare.com";
